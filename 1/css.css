@@ -1,0 +1,26 @@
+body{
+    display: grid;
+    place-items: center;
+    background: #4F77FF;
+    
+  }
+  div{
+    position: absolute;
+    margin-top: 300px;
+    width: 400px;
+    height: 400px;
+    background: #284ED0;
+    
+    
+  }
+  div:before{
+    content:"";
+    display:block;
+    width: 100px;
+    height: 100px;
+    background:#FFFFFF;
+    position: absolute;
+    left: 150px;
+   
+    
+  }
